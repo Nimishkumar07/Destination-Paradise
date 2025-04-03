@@ -43,7 +43,7 @@
 }
 .card{
     padding: auto;
-   
+   width: 18rem;
     border-radius: 15px;
 }
 .card img{
@@ -94,6 +94,9 @@
     .about{
         margin-top:2.5rem;
     }
+     .card{
+        margin-bottom: 5px;
+    }
 }
 @media(max-width:655px){
     .mainn{
@@ -112,7 +115,7 @@
    
    .card{
     margin-top: 5px;
-    
+    width: 100%;
    }
    .wal{
     width:100%;
